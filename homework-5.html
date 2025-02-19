@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my hobby-tennis</title>
+    <style>
+      body {
+        background: linear-gradient(
+          109.6deg,
+          rgb(69, 179, 224) 11.2%,
+          rgb(102, 51, 153) 100.2%
+        );
+      }
+      h1,
+      h2 {
+        text-align: center;
+        color: rgb(0, 0, 78);
+      }
+      a {
+        color: rgb(0, 0, 78);
+      }
+      img {
+        max-width: 100%;
+        border-radius: 5px;
+      }
+      p {
+        font-size: medium;
+        text-align: justify;
+        line-height: 1.5;
+      }
+      button {
+        display: block;
+        margin: auto;
+        font-size: medium;
+        font-family: "italics";
+        border-radius: 3px;
+        border: 2px solid rgb(0, 0, 78);
+        color: rgb(0, 0, 78);
+        background-color: aliceblue;
+      }
+      button:hover {
+        background-color: rgb(0, 0, 78);
+        color: aliceblue;
+        border: 2px solid rgb(243, 202, 241);
+        cursor: pointer;
+      }
+      .info {
+        max-width: 800px;
+        background-color: aliceblue;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 15px;
+        border: 5px solid rgb(243, 202, 241);
+      }
+      footer {
+        font-size: medium;
+        text-align: center;
+        margin: 10px 0;
+        color: aliceblue;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .footer {
+        color: rgb(243, 202, 241);
+      }
+      .theme {
+        background-color: aliceblue;
+        color: rgb(0, 0, 78);
+        border: 2px solid rgb(243, 202, 241);
+        border-radius: 10px;
+      }
+      .theme:hover {
+        border: 2px solid rgb(243, 202, 241);
+        color: aliceblue;
+        background-color: rgb(0, 0, 78);
+      }
+      .tennis {
+        border-radius: 4px;
+        transition: all 100ms ease-out;
+      }
+      .tennis:hover {
+        filter: contrast(180%);
+        transform: scale(1.1);
+      }
+      .Grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 5px;
+      }
+      .Grid img {
+        width: 100%;
+        aspect-ratio: 0.9;
+        margin: 3px;
+        transition: all 140ms ease-in-out;
+      }
+      .Grid img:hover {
+        transform: scale(1.5) rotate(360deg);
+      }
+      .dark {
+        background: rgb(0, 0, 0);
+      }
+      .dark .info {
+        background-color: rgba(189, 189, 189, 0.462);
+        color: aliceblue;
+      }
+      .dark h1 {
+        color: aliceblue;
+      }
+      .dark h2 {
+        color: aliceblue;
+      }
+      .dark a {
+        color: aliceblue;
+      }
+      .dark .theme {
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+        border: 2px solid rgb(243, 202, 241);
+      }
+      .dark .theme:hover {
+        border: 2px solid rgb(243, 202, 241);
+        color: rgb(0, 0, 0);
+        background-color: aliceblue;
+      }
+      .dark button {
+        display: block;
+        margin: auto;
+        font-size: medium;
+        font-family: "italics";
+        border-radius: 3px;
+        border: 2px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        background-color: aliceblue;
+      }
+      .dark button:hover {
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+        border: 2px solid rgb(243, 202, 241);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme">Theme</button><br />
+    <div class="info">
+      <h1>Meaning behind the word</h1>
+
+      <h2>'Tennis'</h2>
+
+      <img
+        src="https://photoresources.wtatennis.com/photo-resources/2019/08/15/dbb59626-9254-4426-915e-57397b6d6635/tennis-origins-e1444901660593.jpg?width=1200&height=630"
+        class="tennis"
+      />
+
+      <div class="Grid">
+        <img
+          src="https://i.pinimg.com/originals/b9/e0/49/b9e0490cf154d4b3049b087a19f923da.jpg"
+        />
+
+        <img
+          src="https://media.istockphoto.com/id/2117004438/photo/tennis-player-playing-in-tennis-court.jpg?s=612x612&w=0&k=20&c=8b5mSQ76eLYN_fL-k8e9b6cgIQOuJbOcvKBCjuTcczs="
+        />
+        <img
+          src="https://static01.nyt.com/athletic/uploads/wp/2024/05/17040935/Coco-Gauff-Madrid-scaled.jpg"
+        />
+        <img
+          src="https://www.usmagazine.com/wp-content/uploads/2019/07/Serena-Williams-2019-Ladies-Wimbledon-Tennis-Outfits-Lead.jpg?quality=55&strip=all"
+        />
+      </div>
+      <p>
+        Tennis comes from the French tenez, the formal imperative form of the
+        verb tenir, to hold, meaning "hold!", "receive!" or "take!", an
+        interjection used as a call from the server to his opponent to indicate
+        that he is about to serve. Racket (or racquet) derives from the Arabic
+        rakhat, meaning the palm of the hand.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Tennis">
+        <button>Learn More About Tennis</button>
+      </a>
+    </div>
+    <footer>
+      Coded with 💗 By<a
+        class="footer"
+        href="https://www.shecodes.io/graduates/130140-ntando-asiphe-mtolo"
+      >
+        Ntando Mtolo</a
+      >
+    </footer>
+    <script>
+      function theme() {
+        let body = document.querySelector("body");
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let themeButton = document.querySelector(".theme");
+      themeButton.addEventListener("click", theme);
+    </script>
+  </body>
+</html>
